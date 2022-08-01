@@ -1,14 +1,15 @@
 import React from "react";
 import Header from "../../Common/Header/Header";
+import Heading from "../../Common/Heading";
 import "./Hero.css";
 const Hero = () => {
   return (
     <div className="hero">
-        <Header
+        <Heading
           title="Search Your Next Home"
           subtitle="Find new & featured property located in your local city."
         />  
-      <div className="container mtop1">
+      <div className="container ">
          <form className='flex'>
             <div className='box'>
               <span>City/Street</span>
