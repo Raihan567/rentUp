@@ -1,0 +1,96 @@
+.footerContact {
+  background-color: #27ae60;
+  padding: 40px 0;
+  color: #fff;
+}
+
+.footerContact h1 {
+  font-size: 40px;
+}
+
+/* Footer */
+footer {
+  background-color: #1d2636;
+  padding: 50px 0;
+  color: #fff;
+}
+footer .container {
+  display: grid;
+  grid-template-columns: 6fr 2fr 2fr 1fr;
+  gap: 20px;
+}
+footer h2 {
+  font-weight: 500;
+}
+footer p {
+  color: grey;
+  margin: 20px 0;
+}
+footer input {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 17px;
+  width: 100%;
+  margin-right: 5px;
+}
+.logo img {
+  width: 170px;
+}
+
+footer h3 {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+footer ul {
+  display: block;
+}
+footer ul li {
+  display: block;
+  margin-bottom: 10px;
+  color: grey;
+  cursor: pointer;
+  transition: 0.5s;
+}
+footer ul li:hover{
+ color: #27AE60;
+}
+
+.legal {
+  background-color: #1d2636;
+  padding: 20px;
+  text-align: center;
+  color: grey;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width: 800px) {
+  footer .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer{
+    margin: 0;
+    padding: 1rem 0;
+  }
+  
+  footer{
+    margin-right: 0;
+  }
+
+  .text h1{
+    font-size: 20px;
+  }
+  .btn5{
+    text-align: center;
+    margin: 0;padding: 0.4rem;
+
+  }
+  .text button{
+    font-size: 15px;
+  }
+  .send {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  
+}
