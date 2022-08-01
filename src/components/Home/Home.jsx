@@ -10,7 +10,6 @@ import Team from "./Team/Team";
 const Home = () => {
   return (
     <div>
-      <h2>Welcome, to Home</h2>
       <Hero></Hero>
       <Feature></Feature>
       <Recent></Recent>
