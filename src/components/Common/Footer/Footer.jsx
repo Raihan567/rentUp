@@ -37,8 +37,7 @@ const Footer = () => {
             </div>
           </div>
 
-         
-          {footer.map((val) => (
+          {footer.map((val, index) => (
             <div className="box">
               <h3>{val.title}</h3>
               <ul>
@@ -51,7 +50,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className="legal">
-      <span>© 2021 RentUP. Designed By Raihan.</span>
+        <span>© 2021 RentUP. Designed By Raihan.</span>
       </div>
     </>
   );

@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../../Common/Header/Header";
 import Heading from "../../Common/Heading";
 import "./Hero.css";
 const Hero = () => {

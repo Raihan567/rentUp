@@ -1,10 +1,18 @@
-import React from 'react';
-
+import React from "react";
+import { featured } from "../../Data/Data";
 const FeatureCard = () => {
   return (
-    <div>
-      <h2>FeatureCard</h2>
-    </div>
+    <>
+      <div className="content grid5 mtop">
+        {featured.map((items, index) => (
+          <div className="box" key={index}>
+            <img src={items.cover} alt="" />
+            <h4>{items.name}</h4>
+            <label>{items.total}</label>
+          </div>
+        ))}
+      </div>
+    </>
   );
 };
 
