@@ -242,7 +242,7 @@ export const team = [
   },
   {
     list: "38",
-    cover: "../../images/Customer/team-6.jpg",
+    cover: "../../images/Customer/team-1.jpg",
     address: "Montreal, USA",
     name: "Adam K. Jollio",
     icon: [

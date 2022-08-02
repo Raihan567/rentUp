@@ -1,10 +1,19 @@
-import React from 'react';
-import './Price.css'
+import React from "react";
+import Heading from "../../Common/Heading";
+import "./Price.css";
 const Price = () => {
   return (
-    <div>
-      <h2>Price</h2>
-    </div>
+    <>
+      <div className="content padding">
+        <div className="container">
+          <Heading
+            title="Select Your Package"
+            subtitle="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+          ></Heading>
+          
+        </div>
+      </div>
+    </>
   );
 };
 
