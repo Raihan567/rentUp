@@ -1,10 +1,47 @@
-import React from 'react';
+import React from "react";
+import { list } from "../../Data/Data";
 
 const RecentCard = () => {
   return (
-    <div>
-      <h2>RecentCard</h2>
-    </div>
+    <>
+      <div className="content grid3 mtop">
+        {list.map((val, index) => {
+          const { cover, category, location, name, price, type } = val;
+          return (
+            <div className="box shadow">
+              <div className="img">
+                <img src={cover} alt="/" />
+              </div>
+              <div className="text">
+                <div className="category flex">
+                  <span
+                    style={{
+                      background:
+                        category === "For sale" ? "#25b5791a" : "#ff98001a",
+                      color: category === "For sale" ? "#25b579" : "#ff9800",
+                    }}
+                  >
+                    {category}
+                  </span>
+                  <i className="fa fa-heart"></i>
+                </div>
+                <h4>{name}</h4>
+                <p>
+                  <i className="fa fa-location-dot">{location}</i>
+                </p>
+              </div>
+              <div className="button flex">
+                <div>
+                  <button className="btn2">{price}</button>
+                  <label htmlFor="">/Sqft</label>
+                </div>
+                <span>{type}</span>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </>
   );
 };
 
