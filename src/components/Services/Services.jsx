@@ -1,10 +1,18 @@
-import React from 'react';
-
+import React from "react";
+import Back from "../Common/Back";
+import img from "../images/services.jpg";
+import FeatureCard from "../Home/Feature/FeatureCard";
+import '../Home/Feature/Feature.css'
 const Services = () => {
   return (
-    <div>
-      <h2>Services</h2>
-    </div>
+    <>
+      <section className="services mb">
+        <Back name="Services" title="Services -All Services" cover={img} />
+        <div className="feature container">
+          <FeatureCard />
+        </div>
+      </section>
+    </>
   );
 };
 

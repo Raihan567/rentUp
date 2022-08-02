@@ -1,9 +1,12 @@
 import React from 'react';
+import Back from '../Common/Back';
 const Blog = () => {
   return (
-    <div>
-      <h2>Blog</h2>
-    </div>
+    <>
+    <section className="blog mb">
+      <Back name="Blog" title= "Now what's going on in the world" />
+    </section>
+    </>
   );
 };
 
