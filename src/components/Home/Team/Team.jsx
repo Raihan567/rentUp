@@ -15,7 +15,7 @@ const Team = () => {
           <div className="content mtop grid3">
             {team.map((val, index) => (
               <div className="box" key={index}>
-                <button className="btn3">{val.list}Listing</button>
+                {/* <button className="btn3">{val.list}Listing</button> */}
                 <div className="details">
                   <div className="img">
                     <img src={val.cover} alt="" />

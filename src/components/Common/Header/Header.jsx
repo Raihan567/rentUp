@@ -10,7 +10,10 @@ const Header = () => {
       <header>
         <div className="container flex">
           <div className="logo">
-            <img src={logo} alt={logo} />
+            {/* <img src={logo} alt={logo} /> */}
+            <h1>
+              <Link to="/">Renter</Link>
+            </h1>
           </div>
 
           <div className="nav ">
